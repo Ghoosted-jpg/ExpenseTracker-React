@@ -152,3 +152,8 @@ This project was created as part of a technical assessment for **Innovaxel Inter
 Contributions are welcome! Feel free to fork, improve, or enhance the app and submit a PR.
 
 ---
+---
+
+<p align="center">
+  Made with ❤️ by <a href="https://github.com/Ghoosted-jpg">Ghoosted</a>
+</p>
