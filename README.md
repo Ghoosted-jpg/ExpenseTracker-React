@@ -1,70 +1,198 @@
-# Getting Started with Create React App
+# 💰 Expense Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Expense Tracker Preview](https://ghoosted-jpg.github.io/ExpenseTracker-React/)  
 
-## Available Scripts
+A **simple yet powerful expense tracking web app** built with **React**, **Tailwind CSS**, and **Recharts**. Easily manage your daily expenses, view spending trends, and visualize category breakdowns — all without needing a backend!
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📷 Preview (Coming Soon)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Expense Tracker Screenshot](https://via.placeholder.com/800x400?text=Preview+Coming+Soon)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+> 🔁 Want to see how it looks live?  
+👉 [Live Demo](https://your-username.github.io/expense-tracker/) *(currently under construction)*
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ✨ Features
 
-### `npm run build`
+✅ Add, edit, and delete expenses  
+✅ Filter by category and date range  
+✅ View total amount spent  
+✅ Visualize spending with charts:
+- Pie Chart: Category-wise breakdown
+- Bar Chart: Monthly trend (last 6 months)  
+✅ Data persistence using `localStorage`  
+✅ Fully responsive design (mobile + desktop friendly)  
+✅ Smooth animations and modern UI
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠 Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| Tech | Description |
+|------|-------------|
+| **React** | Frontend framework |
+| **Tailwind CSS** | Utility-first styling system |
+| **Recharts** | Declarative charting library |
+| **Lucide Icons** | Beautiful SVG icons |
+| **LocalStorage** | Client-side data persistence |
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🧩 Core Functionalities
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Feature | Description |
+|--------|-------------|
+| **Add Expense** | Add new transactions with title, amount, category, date, and optional notes |
+| **Edit/Delete** | Modify or remove existing entries |
+| **Filtering** | Filter expenses by category and custom date range |
+| **Summary Dashboard** | See your total spending, number of transactions, and monthly trends |
+| **Category Breakdown** | Pie chart showing where most of your money goes |
+| **Monthly Trend** | Bar chart displaying monthly expense patterns |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📦 Folder Structure
 
-## Learn More
+```
+expense-tracker/
+│
+├── public/
+│   └── index.html
+│
+├── src/
+│   ├── App.js
+│   ├── index.js
+│   └── components/ (optional)
+│
+├── package.json
+├── README.md
+└── tailwind.config.js
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🚀 How to Run Locally
 
-### Code Splitting
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/expense-tracker.git
+cd expense-tracker
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 2. Install dependencies
+```bash
+npm install
+```
 
-### Analyzing the Bundle Size
+### 3. Start development server
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🌐 How to Deploy on GitHub Pages
 
-### Advanced Configuration
+### 1. Install `gh-pages`
+```bash
+npm install gh-pages --save-dev
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### 2. Update `package.json`
+Add these lines:
 
-### Deployment
+```json
+{
+  "homepage": "https://your-username.github.io/expense-tracker",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### 3. Deploy to GitHub Pages
+```bash
+npm run deploy
+```
 
-### `npm run build` fails to minify
+Your site will be available at:
+```
+https://your-username.github.io/expense-tracker
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 📋 How to Use
+
+1. Click **"Add Expense"** to add a new transaction.
+2. Use the **filters** to narrow down your view.
+3. Switch to the **Summary tab** to see:
+   - Total expenses
+   - Spending breakdown by category
+   - Monthly trends
+
+---
+
+## 📊 Charts Used
+
+| Chart Type | Purpose |
+|-----------|---------|
+| **Pie Chart** | Visualizes how much you've spent in each category |
+| **Bar Chart** | Shows monthly expense trends (last 6 months) |
+
+Built using [Recharts](https://recharts.org), a powerful and flexible charting library for React.
+
+---
+
+## 🧪 Bonus Ideas (Optional Future Work)
+
+- ✅ Export expenses to CSV/Excel  
+- 🔐 Add user login/authentication  
+- 💵 Budget tracking feature  
+- 🌙 Dark mode toggle  
+- ☁️ Connect to Firebase or Supabase for cloud storage
+
+---
+
+## 📄 License
+
+MIT License – feel free to use and modify this code however you'd like.
+
+---
+
+## 📬 Feedback
+
+If you have any questions, suggestions, or want to contribute, feel free to open an issue or reach out!
+
+---
+
+## 👨‍💻 Author
+
+👤 **Your Name**  
+📧 your.email@example.com  
+🔗 [GitHub Profile](https://github.com/your-username)  
+💼 [LinkedIn Profile](https://linkedin.com/in/your-profile)
+
+---
+
+## 🎯 Acknowledgements
+
+This project was created as part of a technical assessment for **Innovaxel Internship Program**. Thank you for the opportunity!
+
+---
+
+## 🙌 Contributing
+
+Contributions are welcome! Feel free to fork, improve, or enhance the app and submit a PR.
+
+---
+
+Let me know if you’d like me to generate a ZIP file with this README included, or help you host it online via Vercel or Netlify.
+
+Would you like that? 😊
