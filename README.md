@@ -21,7 +21,6 @@ A **simple yet powerful expense tracking web app** built with **React**, **Tailw
 ✅ Fully responsive design (mobile + desktop friendly)  
 ✅ Smooth animations and modern UI
 
----
 
 ## 🛠 Technologies Used
 
@@ -33,7 +32,6 @@ A **simple yet powerful expense tracking web app** built with **React**, **Tailw
 | **Lucide Icons** | Beautiful SVG icons |
 | **LocalStorage** | Client-side data persistence |
 
----
 
 ## 🧩 Core Functionalities
 
@@ -46,7 +44,6 @@ A **simple yet powerful expense tracking web app** built with **React**, **Tailw
 | **Category Breakdown** | Pie chart showing where most of your money goes |
 | **Monthly Trend** | Bar chart displaying monthly expense patterns |
 
----
 
 ## 📦 Folder Structure
 
@@ -65,8 +62,6 @@ expense-tracker/
 ├── README.md
 └── tailwind.config.js
 ```
-
----
 
 ## 🚀 How to Run Locally
 
@@ -88,7 +83,6 @@ npm start
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
----
 
 ## 📋 How to Use
 
@@ -99,7 +93,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
    - Spending breakdown by category
    - Monthly Expense
 
----
 
 ## 📊 Charts Used
 
@@ -110,7 +103,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 Built using [Recharts](https://recharts.org), a powerful and flexible charting library for React.
 
----
 
 ## 🧪 Bonus Ideas (Optional Future Work)
 
@@ -120,30 +112,25 @@ Built using [Recharts](https://recharts.org), a powerful and flexible charting l
 - 🌙 Dark mode toggle  
 - ☁️ Connect to Firebase or Supabase for cloud storage
 
----
 
 ## 📄 License
 
 MIT License – feel free to use and modify this code however you'd like.
 
----
 
 ## 📬 Feedback
 
 If you have any questions, suggestions, or want to contribute, feel free to open an issue or reach out!
 
----
 
 ## 👨‍💻 Author
 
 🔗 [GitHub Profile](https://github.com/Ghoosted-jpg)
----
 
 ## 🎯 Acknowledgements
 
 This project was created as part of a technical assessment for **Innovaxel Internship Program**. Thank you for the opportunity!
 
----
 
 ## 🙌 Contributing
 
