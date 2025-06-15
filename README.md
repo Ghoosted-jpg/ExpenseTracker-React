@@ -6,12 +6,12 @@ A **simple yet powerful expense tracking web app** built with **React**, **Tailw
 
 ---
 
-## 📷 Preview (Coming Soon)
+## 📷 Preview 
 
 ![Expense Tracker Screenshot](https://via.placeholder.com/800x400?text=Preview+Coming+Soon)
 
 > 🔁 Want to see how it looks live?  
-👉 [Live Demo](https://your-username.github.io/expense-tracker/) *(currently under construction)*
+👉 [Live Demo](https://ghoosted-jpg.github.io/ExpenseTracker-React/)
 
 ---
 
@@ -194,5 +194,3 @@ Contributions are welcome! Feel free to fork, improve, or enhance the app and su
 ---
 
 Let me know if you’d like me to generate a ZIP file with this README included, or help you host it online via Vercel or Netlify.
-
-Would you like that? 😊
