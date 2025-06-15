@@ -6,10 +6,6 @@ A **simple yet powerful expense tracking web app** built with **React**, **Tailw
 
 ---
 
-## 📷 Preview 
-
-![Expense Tracker Screenshot](https://via.placeholder.com/800x400?text=Preview+Coming+Soon)
-
 > 🔁 Want to see how it looks live?  
 👉 [Live Demo](https://ghoosted-jpg.github.io/ExpenseTracker-React/)
 
@@ -78,8 +74,8 @@ expense-tracker/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/expense-tracker.git
-cd expense-tracker
+git clone https://github.com/Ghoosted-jpg/ExpenseTracker-React.git
+cd ExpenseTracker-React
 ```
 
 ### 2. Install dependencies
@@ -96,38 +92,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 🌐 How to Deploy on GitHub Pages
-
-### 1. Install `gh-pages`
-```bash
-npm install gh-pages --save-dev
-```
-
-### 2. Update `package.json`
-Add these lines:
-
-```json
-{
-  "homepage": "https://your-username.github.io/expense-tracker",
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  }
-}
-```
-
-### 3. Deploy to GitHub Pages
-```bash
-npm run deploy
-```
-
-Your site will be available at:
-```
-https://your-username.github.io/expense-tracker
-```
-
----
-
 ## 📋 How to Use
 
 1. Click **"Add Expense"** to add a new transaction.
@@ -135,7 +99,7 @@ https://your-username.github.io/expense-tracker
 3. Switch to the **Summary tab** to see:
    - Total expenses
    - Spending breakdown by category
-   - Monthly trends
+   - Monthly Expense
 
 ---
 
@@ -174,11 +138,7 @@ If you have any questions, suggestions, or want to contribute, feel free to open
 
 ## 👨‍💻 Author
 
-👤 **Your Name**  
-📧 your.email@example.com  
-🔗 [GitHub Profile](https://github.com/your-username)  
-💼 [LinkedIn Profile](https://linkedin.com/in/your-profile)
-
+🔗 [GitHub Profile](https://github.com/Ghoosted-jpg)
 ---
 
 ## 🎯 Acknowledgements
@@ -192,5 +152,3 @@ This project was created as part of a technical assessment for **Innovaxel Inter
 Contributions are welcome! Feel free to fork, improve, or enhance the app and submit a PR.
 
 ---
-
-Let me know if you’d like me to generate a ZIP file with this README included, or help you host it online via Vercel or Netlify.
